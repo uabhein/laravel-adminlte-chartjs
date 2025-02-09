@@ -22,6 +22,7 @@
         </div>
         <!-- Footer -->
         @include('layouts.footer')
+        @stack('scripts')
     </div>
 </body>
 </html>
